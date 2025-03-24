@@ -127,10 +127,6 @@ I take on freelance projects occasionally to explore new technologies and challe
 
 ------
 
-## Personal Life
-
-I am an open-minded person who enjoys communication and collaboration.
-
 ### Hobbies
 
 - Trading
