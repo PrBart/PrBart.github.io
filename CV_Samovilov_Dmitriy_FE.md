@@ -48,7 +48,7 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 ## Education
 
 **Moscow State University**
- **Physics Department** (*2014–2017*)
+**Physics Department** (*2014–2017*)
 
 ------
 
