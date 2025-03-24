@@ -87,7 +87,7 @@ BitXchange is the largest crypto ATM manufacturer in Georgia.
 
 **Front-End Developer** (*May 2022 – Dec 2023*)
 
-Worked on a UK-based [educational platform](https://www.devicesforeducation.com/).
+Worked on a UK-based educational platform.
 
 - Rapid MVP development.
 - Built a robust and scalable solution.
