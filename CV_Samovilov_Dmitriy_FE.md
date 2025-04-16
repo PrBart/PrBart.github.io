@@ -14,7 +14,7 @@
 
 ### Career Overview
 
-I am an experienced developer with over 7 years of experience. focusing on meaningful and complex products. My primary expertise is in **React**/**Next.js** and its ecosystem, though I am always eager to expand my skill set and share my knowledge.
+I am an experienced developer with over 7 years of experience, focusing on meaningful and complex products. My primary expertise is in **React**/**Next.js** and its ecosystem, though I am always eager to expand my skill set and share my knowledge.
 
 I have experience covering the full software development lifecycle: from design approval and front-end/back-end development to database modeling, cloud deployment, and **SEO** optimization.
 
