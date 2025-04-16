@@ -14,7 +14,7 @@
 
 ### Career Overview
 
-I've been working in development since autumn 2017, focusing on meaningful and complex products. My primary expertise is in **React**/**Next.js** and its ecosystem, though I am always eager to expand my skill set and share my knowledge.
+I am an experienced developer with over 7 years of experience. focusing on meaningful and complex products. My primary expertise is in **React**/**Next.js** and its ecosystem, though I am always eager to expand my skill set and share my knowledge.
 
 I have experience covering the full software development lifecycle: from design approval and front-end/back-end development to database modeling, cloud deployment, and **SEO** optimization.
 
@@ -54,7 +54,7 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 
 ## Career History
 
-### The Project *(Details available upon request)*
+### NDA
 
 **Team Lead** (*Oct 2023 – Present*)
 
