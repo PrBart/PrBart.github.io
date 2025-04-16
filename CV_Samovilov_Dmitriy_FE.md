@@ -10,8 +10,6 @@
 
 ------
 
-## About Me
-
 ### Career Overview
 
 I am an experienced developer with over 7 years of experience, focusing on meaningful and complex products. My primary expertise is in **React**/**Next.js** and its ecosystem, though I am always eager to expand my skill set and share my knowledge.
@@ -29,6 +27,8 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 - Familiar with micro-frontend architecture, such as Module Federation.
 - Strong grasp of **JavaScript**, **TypeScript**, **Next.js**, **Webpack**, **Rollup**, **ESLint**, **Gulp**, and **other tools**.
 - Skilled in creating user-friendly **UI/UX** designs in collaboration with designers.
+- Experienced in writing unit tests.
+- **Performance Optimization:** Familiar with **Lighthouse**, **Core Web Vitals**, and performance tuning techniques.
 
 #### Back-End
 
@@ -36,6 +36,17 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 - Developed multiple bots for Telegram, Discord, and other platforms.
 - Worked with **AWS** and **DigitalOcean** for cloud deployment.
 - Passionate **Linux** user.
+- Familiar with testing back-end logic and APIs through unit and integration tests.
+- **CI/CD:** Setup and maintained pipelines using **GitHub Actions**, **GitLab CI**
+
+#### 🤝 **Soft Skills & Workflows**
+
+- **Agile / Scrum / Kanban** methodologies.
+- **Code Reviews:** Regularly conduct and participate in peer code reviews.
+- **Mentorship & Onboarding:** Helped junior developers ramp up and grow.
+- **Conflict Mediation:** Experience maintaining a positive team atmosphere.
+- **Distributed Teams:** Effective communication and collaboration in remote-first environments.
+- **Project Planning & Estimation:** Skilled in breaking down tasks and estimating timelines.
 
 ### Languages
 
