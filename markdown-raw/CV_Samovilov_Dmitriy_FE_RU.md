@@ -3,9 +3,11 @@
 ### Front-End разработчик
 
 **Тбилиси, Грузия**
+
 **Действующий вид на жительство и разрешение на работу в ЕС**
 
 **Email:** [d.samovilov@gmail.com](mailto:d.samovilov@gmail.com)
+
 **Ссылки:** [Github](https://github.com/PrBart) | [Telegram](https://t.me/DSamovilov) | [LinkedIn](https://www.linkedin.com/in/dmitriy-samovilov/)
 
 ------

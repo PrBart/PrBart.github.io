@@ -3,9 +3,11 @@
 ### Front-End Developer
 
 **Tbilisi, Georgia**
+
 **Valid EU work permit and residency**
 
 **Email:** [d.samovilov@gmail.com](mailto:d.samovilov@gmail.com)
+
 **Links:** [Github](https://github.com/PrBart) | [Telegram](https://t.me/DSamovilov) | [LinkedIn](https://www.linkedin.com/in/dmitriy-samovilov/)
 
 ------
