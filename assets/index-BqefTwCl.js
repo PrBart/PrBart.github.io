@@ -81,9 +81,11 @@ Please change the parent <Route path="${_}"> to <Route path="${_==="/"?"*":`${_}
 ### Front-End Developer
 
 **Tbilisi, Georgia**
+
 **Valid EU work permit and residency**
 
 **Email:** [d.samovilov@gmail.com](mailto:d.samovilov@gmail.com)
+
 **Links:** [Github](https://github.com/PrBart) | [Telegram](https://t.me/DSamovilov) | [LinkedIn](https://www.linkedin.com/in/dmitriy-samovilov/)
 
 ------
@@ -226,9 +228,11 @@ I take on freelance projects occasionally to explore new technologies and challe
 ### Front-End разработчик
 
 **Тбилиси, Грузия**
+
 **Действующий вид на жительство и разрешение на работу в ЕС**
 
 **Email:** [d.samovilov@gmail.com](mailto:d.samovilov@gmail.com)
+
 **Ссылки:** [Github](https://github.com/PrBart) | [Telegram](https://t.me/DSamovilov) | [LinkedIn](https://www.linkedin.com/in/dmitriy-samovilov/)
 
 ------
