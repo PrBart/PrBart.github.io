@@ -1,6 +1,6 @@
 # Dmitriy Samovilov
 
-#### Front-End Developer
+### Front-End Developer
 
 **Tbilisi, Georgia**
 **Valid EU work permit and residency**
@@ -60,8 +60,6 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 
 **Moscow State University**
 **Physics Department** (*2014–2017*)
-
-------
 
 ## Career History
 
