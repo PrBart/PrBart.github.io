@@ -19,12 +19,24 @@ body {
   justify-content: center;
 }
 
-.lang-switch-conteiner {
+.top-buttons-conteiner {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 5px;
+  width: 100%;
 }
 
+.print-button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 0.6em 2.5em 0.6em 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border 0.2s, box-shadow 0.2s;
+}
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -95,4 +107,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+}
+
+.print-only {
+  display: none;
 }

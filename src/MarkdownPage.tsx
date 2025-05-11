@@ -5,6 +5,7 @@ import en from "./../markdown-raw/CV_Samovilov_Dmitriy_FE.md?raw";
 import ru from "./../markdown-raw/CV_Samovilov_Dmitriy_FE_RU.md?raw";
 import { Navigate, useParams } from "react-router-dom";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { LanguageLabel } from "./consts";
 
 const markdowns: Record<string, string> = {
   en: en,
@@ -20,6 +21,9 @@ export default function MarkdownPage({ isDefaultLang }: Props) {
   const currentLang = isDefaultLang ? "en" : lang;
   const markdown = markdowns[currentLang ?? ""] || markdowns["en"];
 
+  const printLabelText =
+    LanguageLabel[lang as keyof typeof LanguageLabel] || LanguageLabel.en;
+
   if (lang && !Object.keys(markdowns).includes(lang)) {
     return <Navigate to="/" replace />;
   }
@@ -27,8 +31,19 @@ export default function MarkdownPage({ isDefaultLang }: Props) {
   return (
     <div className="markdown-body" style={{ padding: "2rem" }}>
       {/* Language selector */}
-      <div className="lang-switch-conteiner">
-        <LanguageSwitcher currentLang={lang || "en"} />
+      <div className="top-buttons-conteiner no-print">
+        <div className="">
+          <LanguageSwitcher currentLang={lang || "en"} />
+          <div className="" style={{ display: "flex", marginTop: 10 }}>
+            <button
+              className="print-button no-print"
+              style={{ padding: "10px 5px 10px 5px" }}
+              onClick={() => window.print()}
+            >
+              {printLabelText}
+            </button>
+          </div>
+        </div>
       </div>
 
       {/* Markdown content */}
