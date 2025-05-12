@@ -58,10 +58,7 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 
 ### Awards
 
-- 🥇 [**Winner of the “Digital Breakthrough. Season: AI” hackathon**](https://rsv.ru/news/1/4242/) — a federal-level hackathon held in the Siberian Federal District.
-
-
-------
+- 🥇 [**Winner of the of federeal-level hackaton “Digital Breakthrough. Season: AI”**](https://rsv.ru/news/1/4242/)
 
 ## Education
 
