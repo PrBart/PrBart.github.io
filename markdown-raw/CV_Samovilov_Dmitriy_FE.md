@@ -56,6 +56,11 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 - **Russian** – Native
 - **German** – A2
 
+### Awards
+
+- 🥇 [**Winner of the “Digital Breakthrough. Season: AI” hackathon**](https://rsv.ru/news/1/4242/) — a federal-level hackathon held in the Siberian Federal District.
+
+
 ------
 
 ## Education
