@@ -32,7 +32,7 @@ export default function MarkdownPage({ isDefaultLang }: Props) {
     <div className="markdown-body" style={{ padding: "2rem" }}>
       {/* Language selector */}
       <div className="top-buttons-conteiner no-print">
-        <div className="">
+        <div className="" style={{ width: 140 }}>
           <LanguageSwitcher currentLang={lang || "en"} />
           <div className="" style={{ display: "flex", marginTop: 10 }}>
             <button
