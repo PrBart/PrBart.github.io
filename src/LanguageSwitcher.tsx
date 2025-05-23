@@ -1,21 +1,30 @@
-import { useNavigate } from 'react-router-dom';
-import './LanguageSwitcher.css';
+import { useNavigate } from "react-router-dom";
+import { LanguageNames } from "./consts";
+import { defaultLang, supportedLanguages } from "./lib/loadMarkdownCVs";
 
-const languages = [
-  { id: 'en', name: 'English' },
-  { id: 'ru', name: 'русский' },
-];
+import "./LanguageSwitcher.css";
 
-export default function LanguageSwitcher({ currentLang }: { currentLang: string }) {
+type Props = {
+  currentLang: string;
+};
+
+export default function LanguageSwitcher({ currentLang }: Props) {
   const navigate = useNavigate();
 
   const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    if (e.target.value === "en") {
+    const lang = e.target.value;
+    if (lang === defaultLang) {
       navigate("/");
     } else {
-      navigate(`/${e.target.value}`);
+      navigate(`/${lang}`);
     }
   };
+
+  // Ensure defaultLang is listed first
+  const orderedLanguages = [
+    defaultLang,
+    ...supportedLanguages.filter((lang: string) => lang !== defaultLang),
+  ];
 
   return (
     <div className="dropdown-container">
@@ -24,9 +33,10 @@ export default function LanguageSwitcher({ currentLang }: { currentLang: string 
         value={currentLang}
         onChange={handleLanguageChange}
       >
-        {languages.map((lang) => (
-          <option key={lang.id} value={lang.id}>
-            {lang.name}
+        {orderedLanguages.map((lang) => (
+          <option key={lang} value={lang}>
+            {LanguageNames[lang as keyof typeof LanguageNames] ??
+              lang}
           </option>
         ))}
       </select>

@@ -1,16 +1,14 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-
-import en from "./../markdown-raw/CV_Samovilov_Dmitriy_FE.md?raw";
-import ru from "./../markdown-raw/CV_Samovilov_Dmitriy_FE_RU.md?raw";
 import { Navigate, useParams } from "react-router-dom";
-import LanguageSwitcher from "./LanguageSwitcher";
-import { LanguageLabel } from "./consts";
 
-const markdowns: Record<string, string> = {
-  en: en,
-  ru: ru,
-};
+import LanguageSwitcher from "./LanguageSwitcher";
+import { PrintButtonLanguage } from "./consts";
+import {
+  defaultLang,
+  getMarkdown,
+  supportedLanguages,
+} from "./lib/loadMarkdownCVs";
 
 type Props = {
   isDefaultLang?: boolean;
@@ -18,26 +16,28 @@ type Props = {
 
 export default function MarkdownPage({ isDefaultLang }: Props) {
   const { lang } = useParams<{ lang: string }>();
-  const currentLang = isDefaultLang ? "en" : lang;
-  const markdown = markdowns[currentLang ?? ""] || markdowns["en"];
 
-  const printLabelText =
-    LanguageLabel[lang as keyof typeof LanguageLabel] || LanguageLabel.en;
+  const currentLang = isDefaultLang ? defaultLang : lang ?? defaultLang;
 
-  if (lang && !Object.keys(markdowns).includes(lang)) {
+  if (lang && !supportedLanguages.includes(lang)) {
     return <Navigate to="/" replace />;
   }
 
+  const markdown = getMarkdown(currentLang);
+  const printLabelText =
+  PrintButtonLanguage[currentLang as keyof typeof PrintButtonLanguage] ||
+  PrintButtonLanguage.en;
+
   return (
     <div className="markdown-body" style={{ padding: "2rem" }}>
-      {/* Language selector */}
+      {/* Language selector + Print button */}
       <div className="top-buttons-conteiner no-print">
-        <div className="" style={{ width: 140 }}>
-          <LanguageSwitcher currentLang={lang || "en"} />
-          <div className="" style={{ display: "flex", marginTop: 10 }}>
+        <div style={{ width: 140 }}>
+          <LanguageSwitcher currentLang={currentLang} />
+          <div style={{ display: "flex", marginTop: 10 }}>
             <button
               className="print-button no-print"
-              style={{ padding: "10px 5px 10px 5px" }}
+              style={{ padding: "10px 5px" }}
               onClick={() => window.print()}
             >
               {printLabelText}
