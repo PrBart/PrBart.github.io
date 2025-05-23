@@ -147,13 +147,13 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 
 ### NDA
 
-**Team Lead** (*Oct 2023 – Present*)
+**Team Lead** (*May 2022 – May 2025*)
 
 A media platform primarily based on Telegram, with a 500K+ audience and presence across various platforms.
 
 - Leading development efforts, making key architectural decisions, and planning project growth.
 - Managing a small development team.
-- Overseeing project deployment and **SEO** optimization.
+- Project deployment, **SEO** optimization and everything.
 
 ### [Slotegrator](https://slotegrator.pro/)
 
@@ -163,25 +163,6 @@ Slotegrator is a software provider for online casinos and sportsbooks.
 
 - Refactored and optimized the front-end to improve performance.
 - Contributed to the development of the corporate UI Kit.
-
-### BitXchange
-
-**Front-End Developer** (*Jul 2022 – Sep 2022*)
-
-BitXchange is the largest crypto ATM manufacturer in Georgia.
-
-- Developed [FlipCoin](https://flipcoin.ninja), a no-signup crypto exchange.
-- Rebuilt the existing MVP, optimizing client-server interactions and front-end performance.
-- Designed the front-end architecture.
-
-### Freelance Work
-
-**Front-End Developer** (*May 2022 – Dec 2023*)
-
-Worked on a UK-based educational platform.
-
-- Rapid MVP development.
-- Built a robust and scalable solution.
 
 ### [Sberbank](https://www.sberbank.ru/)
 
@@ -212,7 +193,7 @@ Worked on an emergency operator workstation as part of an outsourcing company.
 
 ### Various Freelance Projects
 
-**JavaScript Developer** (*Apr 2017 – Present*)
+**Developer** (*Apr 2017 – Present*)
 
 I take on freelance projects occasionally to explore new technologies and challenges.
 
@@ -298,13 +279,13 @@ I take on freelance projects occasionally to explore new technologies and challe
 
 ### NDA
 
-**Тимлид** (*окт. 2023 – настоящее время*)
+**Тимлид** (*ноя. 2022 – май 2025*)
 
 Медиаплатформа с основной базой в Telegram, более 500 000 подписчиков, представлена на разных платформах.
 
 - Руководство разработкой, принятие архитектурных решений и планирование роста проекта.
 - Управление небольшой командой разработчиков.
-- Контроль за деплоем и **SEO**-оптимизацией.
+- Контроль за деплоем, **SEO**-оптимизацией и многое ещё.
 
 ### [Slotegrator](https://slotegrator.pro/)
 
