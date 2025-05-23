@@ -25,14 +25,14 @@ export default function MarkdownPage({ isDefaultLang }: Props) {
 
   const markdown = getMarkdown(currentLang);
   const printLabelText =
-  PrintButtonLanguage[currentLang as keyof typeof PrintButtonLanguage] ||
-  PrintButtonLanguage.en;
+    PrintButtonLanguage[currentLang as keyof typeof PrintButtonLanguage] ||
+    PrintButtonLanguage.en;
 
   return (
     <div className="markdown-body" style={{ padding: "2rem" }}>
       {/* Language selector + Print button */}
       <div className="top-buttons-conteiner no-print">
-        <div style={{ width: 140 }}>
+        <div style={{ width: 140, height: 140 }}>
           <LanguageSwitcher currentLang={currentLang} />
           <div style={{ display: "flex", marginTop: 10 }}>
             <button
