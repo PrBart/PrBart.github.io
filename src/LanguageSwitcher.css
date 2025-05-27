@@ -6,6 +6,7 @@
 }
 
 .fancy-dropdown {
+  font-size: 16px;
   color: black;
   appearance: none;
   -webkit-appearance: none;
@@ -14,7 +15,6 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: white;
-  font-size: 1rem;
   cursor: pointer;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='12' height='7' viewBox='0 0 12 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 7L0.803848 0.25L11.1962 0.25L6 7Z' fill='%23666'/%3E%3C/svg%3E");
   background-repeat: no-repeat;

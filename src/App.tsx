@@ -1,9 +1,5 @@
-// import MarkdownViewer from "./MarkdownViewer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MarkdownPage from "./MarkdownPage";
-
-import "github-markdown-css/github-markdown.css";
-import "./markdown-overrides.css";
 
 function App() {
   return (

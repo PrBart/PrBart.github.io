@@ -12,6 +12,7 @@ import {
 
 type Props = {
   isDefaultLang?: boolean;
+  theme?: string;
 };
 
 export default function MarkdownPage({ isDefaultLang }: Props) {
@@ -22,33 +23,36 @@ export default function MarkdownPage({ isDefaultLang }: Props) {
   if (lang && !supportedLanguages.includes(lang)) {
     return <Navigate to="/" replace />;
   }
-
   const markdown = getMarkdown(currentLang);
   const printLabelText =
     PrintButtonLanguage[currentLang as keyof typeof PrintButtonLanguage] ||
     PrintButtonLanguage.en;
 
   return (
-    <div className="markdown-body" style={{ padding: "2rem" }}>
-      {/* Language selector + Print button */}
-      <div className="top-buttons-conteiner no-print">
-        <div style={{ width: 140, height: 140 }}>
-          <LanguageSwitcher currentLang={currentLang} />
-          <div style={{ display: "flex", marginTop: 10 }}>
-            <button
-              className="print-button no-print"
-              style={{ padding: "10px 5px" }}
-              onClick={() => window.print()}
-            >
-              {printLabelText}
-            </button>
+    <div className="page-conteiner">
+      <div className="markdown-body" style={{ padding: "2rem", width: "100%" }}>
+        {/* Language selector + Print button */}
+        <div className="top-buttons-conteiner no-print">
+          <div style={{ width: 140, height: 115 }}>
+            {!(supportedLanguages.length < 2) && (
+              <LanguageSwitcher currentLang={currentLang} />
+            )}
+            <div style={{ display: "flex", marginTop: 10 }}>
+              <button
+                className="print-button no-print"
+                style={{ padding: "10px 5px" }}
+                onClick={() => window.print()}
+              >
+                {printLabelText}
+              </button>
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Markdown content */}
-      <div className="markdown-body">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
+        {/* Markdown content */}
+        <div className="markdown-body">
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
+        </div>
       </div>
     </div>
   );

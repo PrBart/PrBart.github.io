@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:github": "VITE_CV_THEME=github vite build",
+    "build:retro": "VITE_CV_THEME=retro vite build",
+    "build:screen": "VITE_CV_THEME=screen vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

@@ -35,8 +35,7 @@ export default function LanguageSwitcher({ currentLang }: Props) {
       >
         {orderedLanguages.map((lang) => (
           <option key={lang} value={lang}>
-            {LanguageNames[lang as keyof typeof LanguageNames] ??
-              lang}
+            {LanguageNames[lang as keyof typeof LanguageNames] ?? lang}
           </option>
         ))}
       </select>
