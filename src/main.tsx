@@ -4,9 +4,9 @@ import App from "./App.tsx";
 
 import "./index.css";
 
-// const theme = import.meta.env.VITE_CV_THEME;
+const theme = import.meta.env.VITE_CV_THEME;
 
-const theme = "retro";
+// const theme = "retro";
 
 switch (theme) {
   case "retro":
