@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages with the github theme
+name: Deploy with the github theme
 
 on:
   workflow_dispatch:

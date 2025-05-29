@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages with the retro theme
+name: Deploy with the retro theme
 
 on:
   workflow_dispatch:

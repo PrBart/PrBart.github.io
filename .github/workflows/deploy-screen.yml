@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages with the screen theme
+name: Deploy with the screen theme
 
 on:
   workflow_dispatch:
