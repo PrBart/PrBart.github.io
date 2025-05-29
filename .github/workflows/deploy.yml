@@ -1,9 +1,12 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
+    inputs:
+      theme:
+        description: "Select a markdown theme (github, retro, screen)"
+        required: true
+        default: "github"
 
 jobs:
   deploy:
@@ -22,9 +25,12 @@ jobs:
         run: npm ci
 
       - name: Build project
+        env:
+          CV_THEME: ${{ github.event.inputs.theme }}
+
         run: |
-            npm run build
-            cp dist/index.html dist/404.html
+          npm run build
+          cp dist/index.html dist/404.html
 
       - name: Deploy to GitHub Pages repo
         uses: peaceiris/actions-gh-pages@v3
