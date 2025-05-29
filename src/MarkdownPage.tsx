@@ -10,6 +10,8 @@ import {
   supportedLanguages,
 } from "./lib/loadMarkdownCVs";
 
+import "./MarkdownPage.css";
+
 type Props = {
   isDefaultLang?: boolean;
   theme?: string;
@@ -30,17 +32,16 @@ export default function MarkdownPage({ isDefaultLang }: Props) {
 
   return (
     <div className="page-conteiner">
-      <div className="markdown-body" style={{ padding: "2rem", width: "100%" }}>
+      <div className="markdown-body markdown-page">
         {/* Language selector + Print button */}
         <div className="top-buttons-conteiner no-print">
-          <div style={{ width: 140, height: 115 }}>
+          <div className="language-selector">
             {!(supportedLanguages.length < 2) && (
               <LanguageSwitcher currentLang={currentLang} />
             )}
-            <div style={{ display: "flex", marginTop: 10 }}>
+            <div className="print-button-container">
               <button
                 className="print-button no-print"
-                style={{ padding: "10px 5px" }}
                 onClick={() => window.print()}
               >
                 {printLabelText}
