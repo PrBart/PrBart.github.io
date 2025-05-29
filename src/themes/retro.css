@@ -32,4 +32,10 @@ blockquote {
 
 a,
 a:visited {
+  color: #8c8cff;
+}
+a:hover,
+a:focus {
+  color: #d3a459;
+  text-decoration: underline;
 }
