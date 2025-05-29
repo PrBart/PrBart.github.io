@@ -21,7 +21,7 @@ jobs:
 
       - name: Build project
         run: |
-          npm run build
+          npm run build:github
           cp dist/index.html dist/404.html
         env:
           VITE_CV_THEME: github

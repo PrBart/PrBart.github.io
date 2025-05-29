@@ -6,8 +6,6 @@ import "./index.css";
 
 const theme = import.meta.env.VITE_CV_THEME;
 
-// const theme = "retro";
-
 switch (theme) {
   case "retro":
     import("./themes/retro.css");

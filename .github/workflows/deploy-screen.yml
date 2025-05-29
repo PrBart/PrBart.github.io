@@ -21,10 +21,8 @@ jobs:
 
       - name: Build project
         run: |
-          npm run build
+          npm run build:screen
           cp dist/index.html dist/404.html
-        env:
-          VITE_CV_THEME: screen
 
       - name: Deploy to GitHub Pages repo
         uses: peaceiris/actions-gh-pages@v3

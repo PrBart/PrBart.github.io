@@ -21,10 +21,8 @@ jobs:
 
       - name: Build project
         run: |
-          npm run build
+          npm run build:retro
           cp dist/index.html dist/404.html
-        env:
-          VITE_CV_THEME: retro
 
       - name: Deploy to GitHub Pages repo
         uses: peaceiris/actions-gh-pages@v3
