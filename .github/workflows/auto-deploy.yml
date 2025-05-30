@@ -1,0 +1,52 @@
+name: Deploy on commit to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 24
+
+      - name: Get theme from .env
+        id: get-theme
+        run: |
+          if [ -f .env ]; then
+            THEME=$(grep VITE_CV_THEME .env | cut -d '=' -f2 | tr -d '"' | tr -d "'")
+            echo "Found theme in .env: ${THEME}"
+            echo "theme=${THEME}" >> $GITHUB_OUTPUT
+          else
+            echo "No .env file found, using default theme"
+            echo "theme=github" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        env:
+          VITE_CV_THEME: ${{ steps.get-theme.outputs.theme }}
+        run: |
+          echo "Building with theme: $VITE_CV_THEME"
+          npm run build
+          cp dist/index.html dist/404.html
+
+      - name: Deploy to GitHub Pages repo
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GH_PAGES_TOKEN }}
+          external_repository: PrBart/PrBart.github.io
+          publish_branch: gh-pages
+          publish_dir: ./dist
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com 

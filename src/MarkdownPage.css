@@ -6,6 +6,7 @@
 .language-selector {
   width: 140px;
   height: 115px;
+  margin-bottom: 5px;
 }
 
 .print-button-container {
@@ -15,4 +16,4 @@
 
 .print-button {
   padding: 10px 5px;
-} 
+}
