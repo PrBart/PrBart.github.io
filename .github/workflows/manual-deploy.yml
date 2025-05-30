@@ -7,6 +7,9 @@ on:
         description: "Select a markdown theme (github, retro, screen)"
         required: true
         default: "github"
+      title:
+        description: "Set the page title"
+        required: true
 
 jobs:
   deploy:
@@ -27,6 +30,7 @@ jobs:
       - name: Build project
         env:
           VITE_CV_THEME: ${{ github.event.inputs.theme }}
+          VITE_PAGE_TITLE: ${{ github.event.inputs.title }}
 
         run: |
           npm run build

@@ -32,6 +32,7 @@ jobs:
       - name: Print selected theme
         run: |
           echo "Using theme: $VITE_CV_THEME"
+          echo "Page title: $VITE_PAGE_TITLE"
 
       - name: Install dependencies
         run: npm ci
@@ -39,6 +40,7 @@ jobs:
       - name: Build with selected theme
         run: |
           echo "Building with theme: $VITE_CV_THEME"
+          echo "Using page title: $VITE_PAGE_TITLE"
           npm run build
 
       - name: Copy 404 fallback

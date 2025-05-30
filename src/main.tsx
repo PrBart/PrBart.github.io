@@ -5,6 +5,7 @@ import App from "./App.tsx";
 import "./index.css";
 
 const theme = import.meta.env.VITE_CV_THEME;
+const pageTitle = import.meta.env.VITE_PAGE_TITLE || 'My CV';
 
 const loadThemeStyles = async () => {
   switch (theme) {
@@ -27,6 +28,13 @@ const loadThemeStyles = async () => {
 const init = async () => {
   try {
     await loadThemeStyles();
+    document.title = pageTitle;
+    
+    // Update meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', pageTitle);
+    }
     
     const root = createRoot(document.getElementById("root")!);
     root.render(
