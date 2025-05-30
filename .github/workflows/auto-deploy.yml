@@ -18,15 +18,20 @@ jobs:
         with:
           node-version: 24
 
-      - name: Load environment variables from .env
+      - name: Load and export environment variables from .env
         run: |
           echo "Loading .env"
-          set -a
-          source .env
-          set +a
-          echo "Environment variables loaded:"
-          echo "VITE_CV_THEME=$VITE_CV_THEME"
-        shell: bash
+          if [ -f .env ]; then
+            while IFS='=' read -r key value; do
+              if [[ "$key" =~ ^[A-Za-z_][A-Za-z0-9_]*$ ]]; then
+                echo "$key=$value" >> $GITHUB_ENV
+              fi
+            done < .env
+          fi
+
+      - name: Print selected theme
+        run: |
+          echo "Using theme: $VITE_CV_THEME"
 
       - name: Install dependencies
         run: npm ci
@@ -35,8 +40,6 @@ jobs:
         run: |
           echo "Building with theme: $VITE_CV_THEME"
           npm run build
-        env:
-          VITE_CV_THEME: ${{ env.VITE_CV_THEME }}
 
       - name: Copy 404 fallback
         run: cp dist/index.html dist/404.html
