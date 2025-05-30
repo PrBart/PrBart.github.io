@@ -18,15 +18,22 @@ jobs:
         with:
           node-version: 24
 
+      - name: Load environment variables
+        run: |
+          echo "Loading .env"
+          cat .env >> $GITHUB_ENV
+
       - name: Install dependencies
         run: npm ci
-
-      - name: Build project
+      - name: Build with selected theme
+        env:
+          VITE_CV_THEME: ${{ env.VITE_CV_THEME }}
         run: |
-          export $(cat .env | xargs)
-          echo "Theme from .env: $VITE_CV_THEME"
+          echo "Building with theme: $VITE_CV_THEME"
           npm run build
-          cp dist/index.html dist/404.html
+
+      - name: Copy 404 fallback
+        run: cp dist/index.html dist/404.html
 
       - name: Deploy to GitHub Pages repo
         uses: peaceiris/actions-gh-pages@v3
