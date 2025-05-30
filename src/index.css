@@ -19,7 +19,6 @@ body {
 }
 
 .page-container {
-  min-width: 400px;
   max-width: 1200px;
   display: flex;
   justify-content: center;
@@ -84,11 +83,4 @@ body {
 
 .print-only {
   display: none;
-}
-
-@media (max-width: 480px) {
-  .page-container {
-    min-width: 100%;
-    padding: 1rem;
-  }
 }
