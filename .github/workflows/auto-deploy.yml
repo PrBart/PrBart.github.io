@@ -29,7 +29,7 @@ jobs:
             done < .env
           fi
 
-      - name: Print selected theme
+      - name: Print vars
         run: |
           echo "Using theme: $VITE_CV_THEME"
           echo "Page title: $VITE_PAGE_TITLE"
