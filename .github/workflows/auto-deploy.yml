@@ -18,35 +18,13 @@ jobs:
         with:
           node-version: 24
 
-      - name: Get theme from .env
-        id: get-theme
-        run: |
-          DEFAULT_THEME="github"
-          if [ -f .env ]; then
-            # Read the entire file into a variable
-            ENV_CONTENT=$(cat .env)
-            # Use grep with word boundaries and capture the value
-            if THEME_LINE=$(echo "$ENV_CONTENT" | grep -E "^VITE_CV_THEME="); then
-              # Extract everything after the = sign and remove quotes
-              THEME=$(echo "$THEME_LINE" | sed 's/^VITE_CV_THEME=//' | sed 's/^["'"'"']//;s/["'"'"']$//')
-              if [ -n "$THEME" ]; then
-                echo "Found theme in .env: ${THEME}"
-                echo "theme=${THEME}" >> $GITHUB_OUTPUT
-                exit 0
-              fi
-            fi
-          fi
-          echo "Using default theme: ${DEFAULT_THEME}"
-          echo "theme=${DEFAULT_THEME}" >> $GITHUB_OUTPUT
-
       - name: Install dependencies
         run: npm ci
 
       - name: Build project
-        env:
-          VITE_CV_THEME: ${{ steps.get-theme.outputs.theme }}
         run: |
-          echo "Building with theme: $VITE_CV_THEME"
+          export $(cat .env | xargs)
+          echo "Theme from .env: $VITE_CV_THEME"
           npm run build
           cp dist/index.html dist/404.html
 
