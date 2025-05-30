@@ -18,19 +18,25 @@ jobs:
         with:
           node-version: 24
 
-      - name: Load environment variables
+      - name: Load environment variables from .env
         run: |
           echo "Loading .env"
-          cat .env >> $GITHUB_ENV
+          set -a
+          source .env
+          set +a
+          echo "Environment variables loaded:"
+          echo "VITE_CV_THEME=$VITE_CV_THEME"
+        shell: bash
 
       - name: Install dependencies
         run: npm ci
+
       - name: Build with selected theme
-        env:
-          VITE_CV_THEME: ${{ env.VITE_CV_THEME }}
         run: |
           echo "Building with theme: $VITE_CV_THEME"
           npm run build
+        env:
+          VITE_CV_THEME: ${{ env.VITE_CV_THEME }}
 
       - name: Copy 404 fallback
         run: cp dist/index.html dist/404.html
@@ -43,4 +49,4 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./dist
           user_name: github-actions[bot]
-          user_email: github-actions[bot]@users.noreply.github.com 
+          user_email: github-actions[bot]@users.noreply.github.com
