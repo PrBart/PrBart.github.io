@@ -129,3 +129,7 @@ I take on freelance projects occasionally to explore new technologies and challe
 - History
 - Travel
 - Languages
+
+------
+> 🛠️ Building this CV inspired me to make it possible for *anyone* to create a similar one easily — so I made a dedicated package: [**markdown-cv-builder**](https://github.com/PrBart/markdown-cv-builder).  
+> If you'd like a CV like this, [**follow the link**](https://github.com/PrBart/markdown-cv-builder).
