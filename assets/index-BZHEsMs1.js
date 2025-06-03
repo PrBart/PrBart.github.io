@@ -167,15 +167,6 @@ Largest crypto ATM manufacturer in Georgia.
 
 I developed an application for fast cryptocurrency exchange.
 
-### [Slotegrator](https://slotegrator.pro/)
-
-**Front-End Developer** (*Nov 2022 – Mar 2023*)
-
-Slotegrator is a software provider for online casinos and sportsbooks.
-
-- Refactored and optimized the front-end to improve performance.
-- Contributed to the development of the corporate UI Kit.
-
 ### [Sberbank](https://www.sberbank.ru/)
 
 **Front-End Developer** (*Jun 2021 – Apr 2022*)
@@ -309,15 +300,6 @@ I take on freelance projects occasionally to explore new technologies and challe
 - Управление небольшой командой разработчиков.
 - Настройка деплоя, **SEO**-оптимизацией и многое ещё.
 
-### [Slotegrator](https://slotegrator.pro/)
-
-**Фронтенд-разработчик** (*ноя. 2022 – мар. 2023*)
-
-Поставщик программного обеспечения для онлайн-казино и букмекеров.
-
-- Рефакторинг и оптимизация фронтенда для повышения производительности.
-- Участие в разработке корпоративного UI Kit.
-
 ### [BitXchange](https://bxc.ge/)
 
 **Фронтенд-разработчик** (*июл. 2022 – сен. 2022*)
@@ -327,6 +309,8 @@ I take on freelance projects occasionally to explore new technologies and challe
 - Разработка обменника криптовалют.
 - Переработка MVP с оптимизацией взаимодействия клиент-сервер и улучшением производительности.
 - Проектирование фронтенд-архитектуры.
+
+Я разработал приложение для быстрого обмена криптовалют.
 
 ### [Сбербанк](https://www.sberbank.ru/)
 
