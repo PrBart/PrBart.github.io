@@ -150,11 +150,22 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 
 **Team Lead** (*May 2022 – May 2025*)
 
-A media platform primarily based on Telegram, with a 500K+ audience and presence across various platforms.
+A media platform with a millon audience.
 
 - Leading development efforts, making key architectural decisions, and planning project growth.
 - Managing a small development team.
 - Project deployment, **SEO** optimization and everything.
+
+### [BitXchange](https://bxc.ge/)
+
+**Frontend Developer** (*Jul 2022 – Sep 2022*)
+
+Largest crypto ATM manufacturer in Georgia.
+
+- Reworking MVP with client-server interaction optimization and performance improvement.
+- Designing frontend architecture.
+
+I developed an application for fast cryptocurrency exchange.
 
 ### [Slotegrator](https://slotegrator.pro/)
 
@@ -176,15 +187,21 @@ Sberbank is Russia's largest bank. I worked on B2B insurance solutions as part o
 - Managed a small development team, including task setting and planning.
 - Conducted code reviews.
 
+As a result of my work, thousands of businesses have been able to obtain insurance.
+
 ### [Quantum Art](https://quantumart.ru)
 
 **Front-End Developer** (*Nov 2019 – Apr 2021*)
 
-Quantum Art is an outsourcing development company. I worked on a variety of projects, including banking web clients and IoT applications.
+Quantum Art is an outsourcing development company.
 
 - Developed front-end applications using **AngularJS**, **React-Redux,** and **React-MobX**.
 - Collaborated with diverse teams.
 - Conducted code reviews.
+
+General Frontend development, many projects were released:
+I was working on a multiple project that was related to IoT, online banking, payment gateways and many more.
+I made it possible to fellow Moscow residents to top up a city transport card(~130000 daily uses) on the city portal.
 
 ### [Intellect Laboratory](https://intellaboratory.com/)
 
@@ -286,11 +303,11 @@ I take on freelance projects occasionally to explore new technologies and challe
 
 **Тимлид** (*ноя. 2022 – май 2025*)
 
-Медиаплатформа с основной базой в Telegram, более 500 000 подписчиков, представлена на разных платформах.
+Медиаплатформа с миллионной аудиторией.
 
 - Руководство разработкой, принятие архитектурных решений и планирование роста проекта.
 - Управление небольшой командой разработчиков.
-- Контроль за деплоем, **SEO**-оптимизацией и многое ещё.
+- Настройка деплоя, **SEO**-оптимизацией и многое ещё.
 
 ### [Slotegrator](https://slotegrator.pro/)
 
@@ -301,24 +318,15 @@ I take on freelance projects occasionally to explore new technologies and challe
 - Рефакторинг и оптимизация фронтенда для повышения производительности.
 - Участие в разработке корпоративного UI Kit.
 
-### BitXchange
+### [BitXchange](https://bxc.ge/)
 
 **Фронтенд-разработчик** (*июл. 2022 – сен. 2022*)
 
 Крупнейший производитель крипто-ATM в Грузии.
 
-- Разработка [FlipCoin](https://flipcoin.ninja) — обменника криптовалют без регистрации.
+- Разработка обменника криптовалют.
 - Переработка MVP с оптимизацией взаимодействия клиент-сервер и улучшением производительности.
 - Проектирование фронтенд-архитектуры.
-
-### Фриланс
-
-**Фронтенд-разработчик** (*май 2022 – дек. 2023*)
-
-Работа над образовательной платформой из Великобритании.
-
-- Быстрая разработка MVP.
-- Создание устойчивого и масштабируемого решения.
 
 ### [Сбербанк](https://www.sberbank.ru/)
 
@@ -331,6 +339,8 @@ I take on freelance projects occasionally to explore new technologies and challe
 - Руководство небольшой командой, планирование задач.
 - Проведение code review.
 
+Благодаря моей работе тысячи предприятий смогли получить страховку.
+
 ### [Quantum Art](https://quantumart.ru)
 
 **Фронтенд-разработчик** (*ноя. 2019 – апр. 2021*)
@@ -340,6 +350,10 @@ I take on freelance projects occasionally to explore new technologies and challe
 - Разработка приложений на **AngularJS**, **React-Redux**, **React-MobX**.
 - Взаимодействие с распределёнными командами.
 - Code review.
+
+Общая разработка фронтенда, было реализовано множество проектов:
+Я работал над несколькими проектами, связанными с IoT, онлайн-банкингом, платежными шлюзами и многим другим.
+Я предоставил возможность жителям Москвы пополнять городскую транспортную карту (~130000 ежедневных использований) на городском портале.
 
 ### [Intellect Laboratory](https://intellaboratory.com/)
 
