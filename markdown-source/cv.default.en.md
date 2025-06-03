@@ -71,11 +71,22 @@ I actively participate in CTF competitions and hackathons, contribute to open-so
 
 **Team Lead** (*May 2022 – May 2025*)
 
-A media platform primarily based on Telegram, with a 500K+ audience and presence across various platforms.
+A media platform with a millon audience.
 
 - Leading development efforts, making key architectural decisions, and planning project growth.
 - Managing a small development team.
 - Project deployment, **SEO** optimization and everything.
+
+### [BitXchange](https://bxc.ge/)
+
+**Frontend Developer** (*Jul 2022 – Sep 2022*)
+
+Largest crypto ATM manufacturer in Georgia.
+
+- Reworking MVP with client-server interaction optimization and performance improvement.
+- Designing frontend architecture.
+
+I developed an application for fast cryptocurrency exchange.
 
 ### [Slotegrator](https://slotegrator.pro/)
 
@@ -97,15 +108,21 @@ Sberbank is Russia's largest bank. I worked on B2B insurance solutions as part o
 - Managed a small development team, including task setting and planning.
 - Conducted code reviews.
 
+As a result of my work, thousands of businesses have been able to obtain insurance.
+
 ### [Quantum Art](https://quantumart.ru)
 
 **Front-End Developer** (*Nov 2019 – Apr 2021*)
 
-Quantum Art is an outsourcing development company. I worked on a variety of projects, including banking web clients and IoT applications.
+Quantum Art is an outsourcing development company.
 
 - Developed front-end applications using **AngularJS**, **React-Redux,** and **React-MobX**.
 - Collaborated with diverse teams.
 - Conducted code reviews.
+
+General Frontend development, many projects were released:
+I was working on a multiple project that was related to IoT, online banking, payment gateways and many more.
+I made it possible to fellow Moscow residents to top up a city transport card(~130000 daily uses) on the city portal.
 
 ### [Intellect Laboratory](https://intellaboratory.com/)
 
