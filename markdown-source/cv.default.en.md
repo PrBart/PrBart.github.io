@@ -88,15 +88,6 @@ Largest crypto ATM manufacturer in Georgia.
 
 I developed an application for fast cryptocurrency exchange.
 
-### [Slotegrator](https://slotegrator.pro/)
-
-**Front-End Developer** (*Nov 2022 – Mar 2023*)
-
-Slotegrator is a software provider for online casinos and sportsbooks.
-
-- Refactored and optimized the front-end to improve performance.
-- Contributed to the development of the corporate UI Kit.
-
 ### [Sberbank](https://www.sberbank.ru/)
 
 **Front-End Developer** (*Jun 2021 – Apr 2022*)
