@@ -2,7 +2,7 @@
 
 ### Front-End Developer
 
-**Tbilisi, Georgia**
+**Berlin, Germany**
 
 **Valid EU work permit and residency**
 
