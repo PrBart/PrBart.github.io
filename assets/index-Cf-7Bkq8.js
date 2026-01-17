@@ -125,10 +125,11 @@ Ich habe Erfahrung in der **Führung von Entwicklungsteams**, technischen Entsch
 
 ### Backend & Infrastruktur
 
-- **Node.js**: produktive Backend-Entwicklung, Geschäftslogik, Integrationen
+- **Node.js/Bun**: **NestJS**, produktive Backend-Entwicklung, Geschäftslogik, Integrationen
 - **RESTful APIs**: Design, Versionierung, Authentifizierung & Autorisierung
 - **Datenbanken**: MySQL, PostgreSQL, MongoDB — Schema-Design, Migrationen, Query-Optimierung
 - **Redis**: Caching, Sessions, Rate Limiting
+- **PHP**: **WordPress**, Backend-Entwicklung, Legacy-System-Wartung
 - **Backend-Tests**: Unit- und Integrationstests
 - **Docker**: Containerisierung für Entwicklung und Produktion
 - **Cloud & Linux**: AWS, DigitalOcean, Linux-basierte Serverumgebungen
@@ -266,10 +267,11 @@ I have experience **leading development teams**, making technical decisions, and
 
 ### Backend & Infrastructure
 
-- **Node.js**: production backend development, business logic, integrations
+- **Node.js/Bun**: **NestJS**, production backend development, business logic, integrations
 - **RESTful APIs**: design, versioning, authentication & authorization
 - **Databases**: MySQL, PostgreSQL, MongoDB — schema design, migrations, query optimization
 - **Redis**: caching, sessions, rate limiting
+- **PHP**: **WordPress**, backend development, legacy system maintenance
 - **Backend Testing**: unit and integration tests
 - **Docker**: containerization for development and production
 - **Cloud & Linux**: AWS, DigitalOcean, Linux-based server environments
@@ -407,10 +409,11 @@ Result: thousands of businesses onboarded to digital insurance services.
 
 ### Backend & Инфраструктура
 
-- **Node.js**: production бэкенд-разработка, бизнес-логика, интеграции
+- **Node.js/Bun**: **NestJS**, production бэкенд-разработка, бизнес-логика, интеграции
 - **RESTful APIs**: проектирование, версионирование, аутентификация и авторизация
 - **Базы данных**: MySQL, PostgreSQL, MongoDB — проектирование схем, миграции, оптимизация запросов
 - **Redis**: кэширование, сессии, rate limiting
+- **PHP**: **WordPress**, бэкенд-разработка, поддержка legacy-систем
 - **Тестирование бэкенда**: unit и интеграционные тесты
 - **Docker**: контейнеризация для разработки и production
 - **Облако & Linux**: AWS, DigitalOcean, Linux-серверные окружения
