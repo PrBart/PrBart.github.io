@@ -7,13 +7,14 @@ EU Work Permit & Residency
 
 **Email:** [d.samovilov@gmail.com](mailto:d.samovilov@gmail.com)
 
-**Links:** [Github](https://github.com/PrBart) | [Telegram](https://t.me/DSamovilov) | [LinkedIn](https://www.linkedin.com/in/dmitriy-samovilov/)
+**Links:** [GitHub](https://github.com/PrBart) | [Telegram](https://t.me/DSamovilov) | [LinkedIn](https://www.linkedin.com/in/dmitriy-samovilov/)
 
 ## Professional Summary
 
 **Senior Full-Stack Developer with 8+ years of experience** building, scaling, and maintaining a wide range of production web applications and software solutions. I specialize in **React and Next.js**, designing scalable frontend architectures, performant user interfaces, and clean, maintainable code.
 Alongside frontend development, I have strong hands-on experience with **Node.js**. I am comfortable owning features end-to-end — from requirements and architecture to deployment, performance optimization, and CI/CD.
 I have experience **leading development teams**, making technical decisions, and **mentoring other engineers**, helping them grow and maintain high code quality. I regularly use **AI-assisted development tools (LLMs)** to speed up development, improve code quality, testing, and documentation, while keeping full ownership of technical outcomes.
+I am deepening practical expertise in integrating **large language models into backend services**, with attention to orchestration, structured outputs, retrieval, and observable execution.
 
 ## Core Skills
 
@@ -33,14 +34,14 @@ I have experience **leading development teams**, making technical decisions, and
 ### Frontend
 
 - JavaScript (ES6+), TypeScript
-- React (Hooks, Class Components)
+- React (Hooks)
 - Next.js
 - Angular, Vue
 - HTML5, CSS3
 - CSS Grid, Flexbox, Tailwind CSS
 - State Management: Redux, MobX
 - Micro-frontends (Module Federation)
-- Webpack, Rollup, ESLint, Gulp
+- Webpack, Rollup, ESLint
 - Unit & Component Testing
 - Lighthouse, Core Web Vitals
 
@@ -50,11 +51,18 @@ I have experience **leading development teams**, making technical decisions, and
 - **RESTful APIs**: design, versioning, authentication & authorization
 - **Databases**: MySQL, PostgreSQL, MongoDB — schema design, migrations, query optimization
 - **Redis**: caching, sessions, rate limiting
-- **PHP**: **WordPress**, backend development, legacy system maintenance
+- **PHP**: **WordPress**, backend development, CMS integrations
 - **Backend Testing**: unit and integration tests
 - **Docker**: containerization for development and production
 - **Cloud & Linux**: AWS, DigitalOcean, Linux-based server environments
 - **CI/CD**: GitHub Actions, GitLab CI — automated testing and deployments
+
+### AI / LLM Engineering
+
+- Provider APIs: **OpenAI**, **Anthropic**
+- Workflow orchestration: **LangChain** / **LangGraph**; **Vercel AI SDK** in TypeScript services
+- Retrieval patterns: embeddings; PostgreSQL with **pgvector**
+- Observability: traces; **Langfuse**; OpenTelemetry (GenAI)
 
 ## Professional Experience
 
@@ -92,7 +100,7 @@ Media platform with **1M+ monthly users**.
 
 - Developed a new B2B insurance application from scratch
 - Implemented micro-frontend architecture
-- Maintained and enhanced legacy systems
+- Maintained and enhanced existing systems
 - Led a small frontend team and conducted code reviews
 
 Result: thousands of businesses onboarded to digital insurance services.
@@ -101,7 +109,7 @@ Result: thousands of businesses onboarded to digital insurance services.
 
 **2019 – 2021**  
 
-- Developed frontend applications using AngularJS and React
+- Developed frontend applications using Angular and React
 - Worked with Redux and MobX
 - Delivered multiple enterprise projects
 - Domains: IoT, online banking, payment systems
@@ -119,7 +127,7 @@ Result: thousands of businesses onboarded to digital insurance services.
 
 - Delivered projects end-to-end
 - Worked directly with clients
-- Domains: Had a hand on almost any existing IT field like crypto, IoT, Fintech, Trading platforms, Educational solutions, E-commerce and many more!
+- Domains: crypto, IoT, fintech, trading platforms, education, e-commerce, and other B2B web work
 
 ## Education
 
