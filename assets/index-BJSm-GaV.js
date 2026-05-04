@@ -93,7 +93,7 @@ EU-Arbeitserlaubnis & Aufenthaltserlaubnis
 **Senior Full-Stack Entwickler mit über 8 Jahren Erfahrung** in der Entwicklung, Skalierung und Wartung einer Vielzahl von produktiven Webanwendungen und Softwarelösungen. Ich spezialisiere mich auf **React und Next.js**, entwerfe skalierbare Frontend-Architekturen, performante Benutzeroberflächen und sauberen, wartbaren Code.
 Neben der Frontend-Entwicklung verfüge ich über fundierte praktische Erfahrung mit **Node.js**. Ich übernehme gerne die vollständige Verantwortung für Features — von Anforderungen und Architektur bis hin zu Deployment, Performance-Optimierung und CI/CD.
 Ich habe Erfahrung in der **Führung von Entwicklungsteams**, technischen Entscheidungen und dem **Mentoring von Ingenieuren**, um ihnen beim Wachsen zu helfen und hohe Codequalität zu gewährleisten. Ich nutze regelmäßig **KI-gestützte Entwicklungstools (LLMs)**, um die Entwicklung zu beschleunigen, Codequalität, Tests und Dokumentation zu verbessern, während ich die volle Kontrolle über technische Ergebnisse behalte.
-Ich vertiefe die praktische **Integration großer Sprachmodelle in Backend-Services** mit Schwerpunkt auf Orchestrierung, strukturierten Ausgaben, Retrieval und beobachtbaren Aufrufen.
+**LLM-basierte Backends** gehören zu meinem Werkzeugkasten: Anbieter-APIs (**OpenAI**, **Anthropic**), Orchestrierung (**LangChain** / **LangGraph**, **Vercel AI SDK**), Retrieval mit **PostgreSQL + pgvector**, strukturierte Ausgaben sowie Observability (**Langfuse**, **OpenTelemetry**).
 
 ## Kernkompetenzen
 
@@ -107,6 +107,7 @@ Ich vertiefe die praktische **Integration großer Sprachmodelle in Backend-Servi
 - Teamführung & Mentoring
 - Agile / Scrum / Kanban
 - KI-gestützte Softwareentwicklung
+- LLM-Integration (Backend-Services)
 
 ## Technische Fähigkeiten
 
@@ -243,7 +244,7 @@ EU Work Permit & Residency
 **Senior Full-Stack Developer with 8+ years of experience** building, scaling, and maintaining a wide range of production web applications and software solutions. I specialize in **React and Next.js**, designing scalable frontend architectures, performant user interfaces, and clean, maintainable code.
 Alongside frontend development, I have strong hands-on experience with **Node.js**. I am comfortable owning features end-to-end — from requirements and architecture to deployment, performance optimization, and CI/CD.
 I have experience **leading development teams**, making technical decisions, and **mentoring other engineers**, helping them grow and maintain high code quality. I regularly use **AI-assisted development tools (LLMs)** to speed up development, improve code quality, testing, and documentation, while keeping full ownership of technical outcomes.
-I am deepening practical expertise in integrating **large language models into backend services**, with attention to orchestration, structured outputs, retrieval, and observable execution.
+**LLM-backed backends** are part of my toolkit: provider APIs (**OpenAI**, **Anthropic**), orchestration (**LangChain** / **LangGraph**, **Vercel AI SDK**), retrieval with **PostgreSQL + pgvector**, structured outputs, and observability (**Langfuse**, **OpenTelemetry**).
 
 ## Core Skills
 
@@ -257,6 +258,7 @@ I am deepening practical expertise in integrating **large language models into b
 - Team Leadership & Mentorship
 - Agile / Scrum / Kanban
 - AI-Assisted Software Development
+- LLM Integration (Backend Services)
 
 ## Technical Skills
 
@@ -289,8 +291,8 @@ I am deepening practical expertise in integrating **large language models into b
 ### AI / LLM Engineering
 
 - Provider APIs: **OpenAI**, **Anthropic**
-- Workflow orchestration: **LangChain** / **LangGraph**; **Vercel AI SDK** in TypeScript services
-- Retrieval patterns: embeddings; PostgreSQL with **pgvector**
+- Orchestration: **LangChain** / **LangGraph**; **Vercel AI SDK** in TypeScript services
+- Retrieval: embeddings; PostgreSQL with **pgvector**
 - Observability: traces; **Langfuse**; OpenTelemetry (GenAI)
 
 ## Professional Experience
@@ -393,7 +395,7 @@ Result: thousands of businesses onboarded to digital insurance services.
 **Senior Full-Stack Разработчик с опытом более 8 лет** в разработке, масштабировании и поддержке широкого спектра production веб-приложений и программных решений. Специализируюсь на **React и Next.js**, проектирую масштабируемую фронтенд-архитектуру, производительные пользовательские интерфейсы и чистый, поддерживаемый код.
 Помимо фронтенд-разработки, у меня есть солидный практический опыт работы с **Node.js**. Я комфортно веду фичи от начала до конца — от требований и архитектуры до деплоя, оптимизации производительности и CI/CD.
 Имею опыт **руководства командами разработки**, принятия технических решений и **менторства инженеров**, помогая им расти и поддерживать высокое качество кода. Регулярно использую **AI-инструменты разработки (LLM)** для ускорения работы, улучшения качества кода, тестирования и документации, сохраняя полный контроль над техническими результатами.
-Углубляю практику интеграции **LLM в серверные приложения**: оркестрация, структурированный вывод, retrieval, наблюдаемость вызовов.
+**Бэкенды на LLM** — API провайдеры (**OpenAI**, **Anthropic**), оркестрация (**LangChain** / **LangGraph**, **Vercel AI SDK**), retrieval с **PostgreSQL + pgvector**, структурированный вывод, observability (**Langfuse**, **OpenTelemetry**).
 
 ## Ключевые навыки
 
@@ -407,6 +409,7 @@ Result: thousands of businesses onboarded to digital insurance services.
 - Лидерство в команде и менторство
 - Agile / Scrum / Kanban
 - AI-ассистированная разработка ПО
+- Интеграция LLM (бэкенд-сервисы)
 
 ## Технические навыки
 
