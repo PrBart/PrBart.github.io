@@ -14,7 +14,7 @@ EU Work Permit & Residency
 **Senior Full-Stack Developer with 8+ years of experience** building, scaling, and maintaining a wide range of production web applications and software solutions. I specialize in **React and Next.js**, designing scalable frontend architectures, performant user interfaces, and clean, maintainable code.
 Alongside frontend development, I have strong hands-on experience with **Node.js**. I am comfortable owning features end-to-end — from requirements and architecture to deployment, performance optimization, and CI/CD.
 I have experience **leading development teams**, making technical decisions, and **mentoring other engineers**, helping them grow and maintain high code quality. I regularly use **AI-assisted development tools (LLMs)** to speed up development, improve code quality, testing, and documentation, while keeping full ownership of technical outcomes.
-I am deepening practical expertise in integrating **large language models into backend services**, with attention to orchestration, structured outputs, retrieval, and observable execution.
+**LLM-backed backends** are part of my toolkit: provider APIs (**OpenAI**, **Anthropic**), orchestration (**LangChain** / **LangGraph**, **Vercel AI SDK**), retrieval with **PostgreSQL + pgvector**, structured outputs, and observability (**Langfuse**, **OpenTelemetry**).
 
 ## Core Skills
 
@@ -28,6 +28,7 @@ I am deepening practical expertise in integrating **large language models into b
 - Team Leadership & Mentorship
 - Agile / Scrum / Kanban
 - AI-Assisted Software Development
+- LLM Integration (Backend Services)
 
 ## Technical Skills
 
@@ -60,8 +61,8 @@ I am deepening practical expertise in integrating **large language models into b
 ### AI / LLM Engineering
 
 - Provider APIs: **OpenAI**, **Anthropic**
-- Workflow orchestration: **LangChain** / **LangGraph**; **Vercel AI SDK** in TypeScript services
-- Retrieval patterns: embeddings; PostgreSQL with **pgvector**
+- Orchestration: **LangChain** / **LangGraph**; **Vercel AI SDK** in TypeScript services
+- Retrieval: embeddings; PostgreSQL with **pgvector**
 - Observability: traces; **Langfuse**; OpenTelemetry (GenAI)
 
 ## Professional Experience

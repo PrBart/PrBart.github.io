@@ -14,7 +14,7 @@ EU-Arbeitserlaubnis & Aufenthaltserlaubnis
 **Senior Full-Stack Entwickler mit über 8 Jahren Erfahrung** in der Entwicklung, Skalierung und Wartung einer Vielzahl von produktiven Webanwendungen und Softwarelösungen. Ich spezialisiere mich auf **React und Next.js**, entwerfe skalierbare Frontend-Architekturen, performante Benutzeroberflächen und sauberen, wartbaren Code.
 Neben der Frontend-Entwicklung verfüge ich über fundierte praktische Erfahrung mit **Node.js**. Ich übernehme gerne die vollständige Verantwortung für Features — von Anforderungen und Architektur bis hin zu Deployment, Performance-Optimierung und CI/CD.
 Ich habe Erfahrung in der **Führung von Entwicklungsteams**, technischen Entscheidungen und dem **Mentoring von Ingenieuren**, um ihnen beim Wachsen zu helfen und hohe Codequalität zu gewährleisten. Ich nutze regelmäßig **KI-gestützte Entwicklungstools (LLMs)**, um die Entwicklung zu beschleunigen, Codequalität, Tests und Dokumentation zu verbessern, während ich die volle Kontrolle über technische Ergebnisse behalte.
-Ich vertiefe die praktische **Integration großer Sprachmodelle in Backend-Services** mit Schwerpunkt auf Orchestrierung, strukturierten Ausgaben, Retrieval und beobachtbaren Aufrufen.
+**LLM-basierte Backends** gehören zu meinem Werkzeugkasten: Anbieter-APIs (**OpenAI**, **Anthropic**), Orchestrierung (**LangChain** / **LangGraph**, **Vercel AI SDK**), Retrieval mit **PostgreSQL + pgvector**, strukturierte Ausgaben sowie Observability (**Langfuse**, **OpenTelemetry**).
 
 ## Kernkompetenzen
 
@@ -28,6 +28,7 @@ Ich vertiefe die praktische **Integration großer Sprachmodelle in Backend-Servi
 - Teamführung & Mentoring
 - Agile / Scrum / Kanban
 - KI-gestützte Softwareentwicklung
+- LLM-Integration (Backend-Services)
 
 ## Technische Fähigkeiten
 
