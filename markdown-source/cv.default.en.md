@@ -1,9 +1,9 @@
 # Dmitriy Samovilov
 
-**Senior Full-Stack Developer**
+**Senior Full-Stack Developer — React / Next.js / TypeScript / Node.js**
 
 Berlin, Germany  
-EU Work Permit & Residency
+EU Work Permit & Residency — no visa sponsorship required
 
 **Email:** [d.samovilov@gmail.com](mailto:d.samovilov@gmail.com)
 
@@ -11,133 +11,137 @@ EU Work Permit & Residency
 
 ## Professional Summary
 
-**Senior Full-Stack Developer with 8+ years of experience** building, scaling, and maintaining a wide range of production web applications and software solutions. I specialize in **React and Next.js**, designing scalable frontend architectures, performant user interfaces, and clean, maintainable code.
-Alongside frontend development, I have strong hands-on experience with **Node.js**. I am comfortable owning features end-to-end — from requirements and architecture to deployment, performance optimization, and CI/CD.
-I have experience **leading development teams**, making technical decisions, and **mentoring other engineers**, helping them grow and maintain high code quality. I regularly use **AI-assisted development tools (LLMs)** to speed up development, improve code quality, testing, and documentation, while keeping full ownership of technical outcomes.
-**LLM-backed backends** are part of my toolkit: provider APIs (**OpenAI**, **Anthropic**), orchestration (**LangChain** / **LangGraph**, **Vercel AI SDK**), retrieval with **PostgreSQL + pgvector**, structured outputs, and observability (**Langfuse**, **OpenTelemetry**).
+Senior Full-Stack Developer with **8+ years of experience** shipping production web applications — from a high-traffic media platform with **1M+ monthly users** to banking, government, and fintech systems. I specialize in **React, Next.js, and TypeScript** on the frontend and **Node.js (NestJS)** on the backend, owning features end-to-end: architecture, implementation, CI/CD, deployment, and performance optimization.
+
+I have **led and mentored development teams**, driven technical strategy with stakeholders, and established code-quality standards. **LLM-backed backends** are part of my toolkit: provider APIs (**OpenAI**, **Anthropic**), orchestration (**LangChain** / **LangGraph**, **Vercel AI SDK**), retrieval with **PostgreSQL + pgvector**, structured outputs, and observability (**Langfuse**, **OpenTelemetry**). I use AI-assisted development daily to move faster while keeping full ownership of technical outcomes.
+
+## Highlights
+
+- Led full-stack development of a media platform serving **1M+ monthly users** — owned architecture, infrastructure, CI/CD, and SEO
+- Built a B2B insurance platform at **Sberbank** from scratch; **thousands of businesses** onboarded to digital insurance services
+- Contributed to a city transport card top-up service used by **~130,000 people daily**
+- 🥇 Winner of the federal hackathon **"Digital Breakthrough: AI Season"** — one of the largest nationwide IT competitions
 
 ## Core Skills
 
-- Full-Stack Web Development
+- Full-Stack Web Development (React / Next.js / Node.js)
 - Frontend Architecture & Performance Optimization
-- React / Next.js Ecosystem
-- Backend Development & APIs
-- Cloud Infrastructure & DevOps
-- CI/CD Pipelines
+- Backend Development & API Design
+- LLM Integration & AI-Assisted Development
+- Cloud Infrastructure, DevOps & CI/CD
 - High-Traffic & Enterprise Systems
 - Team Leadership & Mentorship
 - Agile / Scrum / Kanban
-- AI-Assisted Software Development
-- LLM Integration (Backend Services)
 
 ## Technical Skills
 
 ### Frontend
 
-- JavaScript (ES6+), TypeScript
-- React (Hooks)
-- Next.js
-- Angular, Vue
-- HTML5, CSS3
-- CSS Grid, Flexbox, Tailwind CSS
+- TypeScript, JavaScript (ES6+)
+- React (Hooks), Next.js (SSR/SSG)
 - State Management: Redux, MobX
 - Micro-frontends (Module Federation)
-- Webpack, Rollup, ESLint
+- Tailwind CSS, CSS Grid/Flexbox, HTML5, CSS3
+- Build Tooling: Vite, Webpack, Rollup, ESLint
 - Unit & Component Testing
-- Lighthouse, Core Web Vitals
+- Performance: Lighthouse, Core Web Vitals
+- Also experienced with: Angular, Vue
 
 ### Backend & Infrastructure
 
-- **Node.js/Bun**: **NestJS**, production backend development, business logic, integrations
+- **Node.js / Bun**: **NestJS** — production backend development, business logic, integrations
 - **RESTful APIs**: design, versioning, authentication & authorization
-- **Databases**: MySQL, PostgreSQL, MongoDB — schema design, migrations, query optimization
+- **Databases**: PostgreSQL, MySQL, MongoDB — schema design, migrations, query optimization
 - **Redis**: caching, sessions, rate limiting
-- **PHP**: **WordPress**, backend development, CMS integrations
-- **Backend Testing**: unit and integration tests
 - **Docker**: containerization for development and production
 - **Cloud & Linux**: AWS, DigitalOcean, Linux-based server environments
 - **CI/CD**: GitHub Actions, GitLab CI — automated testing and deployments
+- **Backend Testing**: unit and integration tests
+- **PHP**: WordPress, CMS integrations
 
 ### AI / LLM Engineering
 
 - Provider APIs: **OpenAI**, **Anthropic**
 - Orchestration: **LangChain** / **LangGraph**; **Vercel AI SDK** in TypeScript services
-- Retrieval: embeddings; PostgreSQL with **pgvector**
-- Observability: traces; **Langfuse**; OpenTelemetry (GenAI)
+- Retrieval (RAG): embeddings, PostgreSQL with **pgvector**
+- Structured outputs, tool calling
+- Observability: **Langfuse**, OpenTelemetry (GenAI), tracing
 
 ## Professional Experience
 
-**Selected enterprise, public-sector, and high-traffic media projects**  
-(contributed via partnerships, outsourcing, and NDA-covered engagements)
+**Selected enterprise, public-sector, and high-traffic media projects**, delivered via partnerships, outsourcing, and NDA-covered engagements. End clients included **Microsoft**, **Moscow City Government (Information Department)**, **Government of Kaliningrad Region**, **Sberbank**, **VTB Bank**, **Alfa-Bank**, **MTS**, **Megafon**, and **Beeline**.
 
-End clients included: **Microsoft**, **Moscow City Government (Information Department)**,  
-**Government of Kaliningrad Region**, **Sberbank**, **VTB Bank**, **Alfa-Bank**,  
-**MTS**, **Megafon**, **Beeline**, and **the media platform with millions of monthly users**.
-
-### NDA Project — Team Lead / Senior Full-Stack Developer  
+### Media Platform (NDA) — Team Lead / Senior Full-Stack Developer
 
 **2022 – 2025**
 
-Media platform with **1M+ monthly users**.
+Online media platform with **1M+ monthly active users**.
 
-- Led frontend and backend development
-- Designed and evolved application architecture
-- Managed and mentored a small development team
-- Owned deployment, CI/CD, infrastructure, and SEO optimization
-- Collaborated with stakeholders on product and technical strategy
+- Led frontend and backend development end-to-end; designed the application architecture and drove its evolution as the platform scaled
+- Built and mentored a small engineering team; introduced code-review practices and quality standards
+- Owned infrastructure, CI/CD pipelines, and deployments
+- Drove SEO and Core Web Vitals optimization to grow organic traffic on a content-heavy platform
+- Partnered directly with stakeholders on product roadmap and technical strategy
 
-### [BitXchange](https://bxc.ge/) — Frontend Developer  
+*Stack: Next.js, React, TypeScript, Node.js (NestJS), PostgreSQL, Redis, Docker, GitHub Actions*
+
+### [BitXchange](https://bxc.ge/) — Frontend Developer
 
 **2022**
 
-- Re-architected MVP frontend for improved client–server interaction
-- Improved performance and application stability
-- Designed scalable frontend architecture
-- Delivered a production-ready cryptocurrency exchange application
+Cryptocurrency exchange — from MVP to production.
 
-### [Sberbank](https://www.sberbank.ru/) — Front-End Developer  
+- Re-architected the MVP frontend, redesigning client–server interaction and significantly improving performance and stability
+- Designed a scalable frontend architecture and delivered the production-ready exchange application
 
-**2021 – 2022**  
+*Stack: React, TypeScript, Redux*
 
-- Developed a new B2B insurance application from scratch
-- Implemented micro-frontend architecture
-- Maintained and enhanced existing systems
-- Led a small frontend team and conducted code reviews
+### [Sberbank](https://www.sberbank.ru/) — Frontend Developer / Team Lead
 
-Result: thousands of businesses onboarded to digital insurance services.
+**2021 – 2022**
 
-### [Quantum Art](https://quantumart.ru) — Front-End Developer  
+Largest bank in Eastern Europe; B2B insurance products.
 
-**2019 – 2021**  
+- Built a new B2B insurance application from scratch within a micro-frontend (Module Federation) architecture
+- Led a small frontend team: planning, code reviews, and mentoring
+- Maintained and enhanced existing customer-facing systems
+- Outcome: **thousands of businesses** onboarded to digital insurance services
 
-- Developed frontend applications using Angular and React
-- Worked with Redux and MobX
-- Delivered multiple enterprise projects
-- Domains: IoT, online banking, payment systems
-- Contributed to a city transport card top-up service (~130,000 daily users)
+*Stack: React, TypeScript, Module Federation, Redux*
 
-### [Intellect Laboratory](https://intellaboratory.com/) — Front-End Developer  
+### [Quantum Art](https://quantumart.ru) — Frontend Developer
+
+**2019 – 2021**
+
+Enterprise software vendor for banking, telecom, and government clients.
+
+- Delivered multiple enterprise frontend projects across IoT, online banking, and payment systems
+- Contributed to a city transport card top-up service handling **~130,000 users daily**
+- Implemented complex state management with Redux and MobX across Angular and React codebases
+
+*Stack: React, Angular, TypeScript, Redux, MobX*
+
+### [Intellect Laboratory](https://intellaboratory.com/) — Frontend Developer
 
 **2018 – 2019**
 
-- Developed an emergency operator workstation
+- Developed a mission-critical operator workstation for an emergency-response service, where UI reliability and clarity directly affect response times
 
-### Freelance Projects — Developer  
+### Freelance & Contract Projects — Full-Stack Developer
 
 **2017 – Present**
 
-- Delivered projects end-to-end
-- Worked directly with clients
-- Domains: crypto, IoT, fintech, trading platforms, education, e-commerce, and other B2B web work
+- Delivered web projects end-to-end for direct clients: requirements, architecture, development, deployment, and support
+- Domains: fintech & trading platforms, crypto, IoT, education, e-commerce, and B2B tools
 
 ## Education
 
-**Moscow State University** — Physics Department  
+**Lomonosov Moscow State University (MSU)** — Faculty of Physics  
 2014 – 2018
 
 ## Awards
 
-🥇 [**Winner — Federal Hackathon "Digital Breakthrough: AI Season"**](https://rsv.ru/news/1/4242/)
+🥇 [**Winner — Federal Hackathon "Digital Breakthrough: AI Season"**](https://rsv.ru/news/1/4242/) — one of the largest nationwide IT competitions
 
 ## Languages
 
@@ -147,5 +151,5 @@ Result: thousands of businesses onboarded to digital insurance services.
 
 ## Additional
 
-- Hackathons & CTF competitions
+- Active participant in hackathons & CTF competitions
 - Open-source contributor
