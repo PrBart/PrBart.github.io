@@ -23,7 +23,7 @@
     "schema:check": "npm run schema:generate && git diff --exit-code -- config/cv.frontmatter.schema.json"
   },
   "dependencies": {
-    "github-markdown-css": "^5.8.1",
+    "github-markdown-css": "^5.9.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-markdown": "^10.1.0",
