@@ -43,8 +43,8 @@ Experienced in **technical leadership and mentoring**, with a background in ente
 ### Backend & Infrastructure
 
 - **Node.js / Bun**: **NestJS**, production backend development, business logic, integrations
-- **RESTful APIs**: design, versioning, authentication & authorization
-- **Databases**: PostgreSQL, MySQL, MongoDB — schema design, migrations, query optimization
+- **RESTful APIs / GraphQL**: design, versioning, authentication & authorization
+- **Databases**: PostgreSQL, MySQL, MongoDB — schema design, migrations, query optimization; **Prisma** ORM
 - **Redis**: caching, sessions, rate limiting
 - **Python**: FastAPI, scripts, pytest, AI/LLM pipelines
 - **Backend Testing**: Jest, unit and integration tests
@@ -60,6 +60,7 @@ Experienced in **technical leadership and mentoring**, with a background in ente
 - Retrieval: **RAG**, embeddings, PostgreSQL with **pgvector**
 - Observability: tracing and evaluation with **Langfuse**
 - AI coding agents: daily use of agentic dev tools for implementation, refactoring, testing, and documentation
+- Personal AI agent: self-hosted 24/7 agent harness (Telegram, scheduled jobs, memory, skills, guardrail plugins) automating day-to-day routine; testbed for experimenting with new LLM features
 
 ## Professional Experience
 
@@ -122,11 +123,7 @@ Production cryptocurrency exchange.
 
 - Built a real-time emergency operator workstation with strict reliability requirements
 
-## Selected Clients & Projects
-
-Delivered production web applications for **enterprise and international clients**, including **Microsoft, Moscow City Government (Information Department), Government of Kaliningrad Region, VTB Bank, Alfa-Bank, MTS, Megafon and Beeline**.
-
-Selected projects:
+## Selected Projects
 
 - **B2B AI knowledge assistant** — NestJS, React, LangChain, pgvector; document ingestion, semantic search and internal support tooling
 - **Real-time trading dashboard** — Next.js and TypeScript; portfolio tracking, charting and broker API integrations

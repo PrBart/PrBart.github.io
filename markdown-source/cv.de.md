@@ -38,8 +38,8 @@ Erfahren in **technischer Führung und Mentoring**, mit Hintergrund in Enterpris
 ### Backend & Infrastruktur
 
 - **Node.js / Bun**: **NestJS**, produktive Backend-Entwicklung, Geschäftslogik, Integrationen
-- **RESTful APIs**: Design, Versionierung, Authentifizierung & Autorisierung
-- **Datenbanken**: PostgreSQL, MySQL, MongoDB — Schema-Design, Migrationen, Query-Optimierung
+- **RESTful APIs / GraphQL**: Design, Versionierung, Authentifizierung & Autorisierung
+- **Datenbanken**: PostgreSQL, MySQL, MongoDB — Schema-Design, Migrationen, Query-Optimierung; **Prisma** ORM
 - **Redis**: Caching, Sessions, Rate Limiting
 - **Python**: FastAPI, Skripte, pytest, AI/LLM-Pipelines
 - **Backend-Tests**: Jest, Unit- und Integrationstests
@@ -55,6 +55,7 @@ Erfahren in **technischer Führung und Mentoring**, mit Hintergrund in Enterpris
 - Retrieval: **RAG**, Embeddings, PostgreSQL mit **pgvector**
 - Observability: Tracing und Evaluation mit **Langfuse**
 - AI Coding Agents: tägliche Nutzung agentischer Dev-Tools für Implementierung, Refactoring, Tests und Dokumentation
+- Persönlicher AI-Agent: selbst gehosteter 24/7-Agent-Harness (Telegram, geplante Jobs, Memory, Skills, Guardrail-Plugins) zur Automatisierung von Routineaufgaben; Testumgebung für neue LLM-Features
 
 ## Berufserfahrung
 
@@ -117,11 +118,7 @@ Produktive Kryptowährungsbörse.
 
 - Entwicklung einer Echtzeit-Arbeitsstation für Notfall-Operatoren mit strengen Zuverlässigkeitsanforderungen
 
-## Ausgewählte Kunden & Projekte
-
-Produktive Webanwendungen für **Enterprise- und internationale Kunden** geliefert, darunter **Microsoft, Regierung der Stadt Moskau (IT-Abteilung), Regierung der Region Kaliningrad, VTB Bank, Alfa-Bank, MTS, Megafon und Beeline**.
-
-Ausgewählte Projekte:
+## Ausgewählte Projekte
 
 - **B2B-KI-Wissensassistent** — NestJS, React, LangChain, pgvector; Dokumenten-Ingestion, semantische Suche und interne Support-Tools
 - **Echtzeit-Trading-Dashboard** — Next.js und TypeScript; Portfolio-Tracking, Charting und Broker-API-Integrationen
